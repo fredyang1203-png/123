@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: ashrift-party
+    runtime: node
+    plan: free
+    buildCommand: npm install --omit=dev
+    startCommand: npm start
+    healthCheckPath: /health
+    autoDeployTrigger: off
