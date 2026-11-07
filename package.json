@@ -1,1 +1,16 @@
-{"name":"ashrift-accounts","version":"1.0.0","private":true,"type":"module","engines":{"node":">=24"},"scripts":{"start":"node server.mjs","test":"node --test auth.test.mjs"}}
+{
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test server.test.mjs"
+  },
+  "dependencies": {
+    "ws": "8.22.1"
+  },
+  "private": true,
+  "version": "1.0.0",
+  "name": "ashrift-party-server",
+  "type": "module"
+}
